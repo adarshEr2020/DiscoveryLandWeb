@@ -1,0 +1,57 @@
+#container {
+    position: relative;
+    height: 400px;
+}
+
+.text1-text2-button {
+    display: flex;
+    flex-direction: row;
+}
+
+.button1 {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    background-color: black;
+    z-index: -1;
+    box-shadow: 0 8px 14px 0 rgb(0 0 0 / 15%);
+}
+
+.text1-text2 {
+    margin: 0px 100px;
+}
+
+.photobanner img {
+    margin: 100px 0px;
+    
+}
+
+.photobanner img {
+    /* border-color: black; */
+    padding: 10px;
+    padding-bottom: 20px;
+    height: 300px;
+    width: 300px;
+}
+
+.photobanner {
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: bannermove 15s linear infinite;
+}
+
+@keyframes bannermove {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-50%, 0);
+    }
+}

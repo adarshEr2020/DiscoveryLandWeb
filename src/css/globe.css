@@ -1,0 +1,164 @@
+.globe {
+    margin-top: 30px;
+    height: 100%;
+}
+
+.bg-globe {
+    background-image: url("../assets/static/globe-europe.jpg");
+    background-position: left;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    padding-bottom: 10%;
+}
+
+.image2 {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    margin-left: 32rem;
+    z-index: 1;
+}
+
+.flower-img {
+    height: 400px;
+    width: 250px;
+    position: absolute;
+    right: 40px;
+    top: -40px;
+}
+
+.div-1 {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.arrow-btns {
+    display: flex;
+}
+
+.left-arrow,
+.right-arrow {
+    color: #fff;
+    font-size: 40px;
+    margin: 15px;
+}
+
+.black-box {
+    background-color: #000;
+    width: 500px;
+    height: 450px;
+    position: relative;
+    z-index: 10;
+    margin-left: 40%;
+    padding: 0 30px;
+}
+
+.globe-icons {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.weather,
+.wind,
+.direction {
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 30px;
+    font-size: small;
+    text-align: center;
+}
+
+.icon-text {
+    color: #fff;
+}
+
+.sec4-text {
+    font-size: 30px;
+    margin: 0;
+}
+
+.location {
+    display: flex;
+    font-size: 13px;
+}
+
+.location,
+.sec4-text,
+.sec4-para-tag {
+    color: #fff;
+}
+
+@media only screen and (max-width: 1255px) {
+    .black-box {
+        width: 50%;
+        padding: 10% 4%;
+    }
+}
+
+@media only screen and (max-width: 999px) {
+
+    .flower-img {
+        height: 80%;
+        width: 40%;
+        position: absolute;
+        right: 20px;
+        top: -20px;
+    }
+
+    .globe-icons {
+        padding: 0;
+        justify-content: space-between;
+    }
+
+    .icon-text {
+        font-size: 10px;
+    }
+
+    .sec4-para-tag {
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    .left-arrow,
+    .right-arrow {
+        margin: 0 10px;
+    }
+
+    .globe-icons {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .black-box {
+        width: 50%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width:699px) {
+    .sec4-text {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .image2 {
+        margin: 0;
+    }
+
+    .black-box {
+        width: 70%;
+        margin-left: 15%;
+
+    }
+
+    .sec4-para-tag,
+    .location {
+        font-size: x-small;
+    }
+}
