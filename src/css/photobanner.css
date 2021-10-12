@@ -41,7 +41,7 @@
 .photobanner {
     position: absolute;
     top: 0px;
-    left: 300px;
+    /* left: 300px; */
     overflow: hidden;
     white-space: nowrap;
     animation: bannermove 15s linear infinite;
