@@ -10,7 +10,7 @@ document.getElementById("header").innerHTML = `
             <a href="">About DLC</a>
         </li>
         <li class="nav-link">
-            <a href="">Our Worlds</a>
+            <a href="../src/pages/ourWorlds.html">Our Worlds</a>
         </li>
         <li class="nav-link">
             <a href="">Experiences</a>
@@ -31,7 +31,7 @@ document.getElementById("header").innerHTML = `
 
 <div id="menu" class="menu-content">
     <div class="logo-btn">
-        <a href="../pages/home.html" class="logo-content">
+        <a href="/Home.html" class="logo-content">
             <img src="./src/assets/logo.svg" alt="logo">
         </a>
         <div class="dropdown">

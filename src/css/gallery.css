@@ -1,4 +1,37 @@
-*{
-background-color: black;
+@media(min-width:700px){
+.gallery-section1{
+    background-image: url(../assets/gallery/gallerybg.jpg);
+    height: 80vh;
+    background-position: 0%;
+    background-size: cover;
 }
 
+.box-section-container {
+    font-family: 'Arapey', serif;
+    font-size: 25px;
+  }
+
+
+.box{
+    background-color: #111111;
+    text-decoration: none;
+    float:left;
+    width: 33.33%;
+    text-align: center;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 20px 0;
+  }
+
+.image{
+    width: auto;
+    height: 300px;
+}
+.footerMargin{
+    margin: 60rem;
+}
+}
